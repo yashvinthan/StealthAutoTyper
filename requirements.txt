@@ -1,0 +1,14 @@
+# Stealth Auto Typer - Requirements File
+
+# ✅ No external Python packages are required.
+# This script uses only built-in modules and Windows API via ctypes:
+# - ctypes
+# - tkinter
+# - time
+# - threading
+# - os
+# - random
+# - psutil (optional, standard on many systems — install manually if needed)
+
+# If psutil is not available, you can install it with:
+# pip install psutil
