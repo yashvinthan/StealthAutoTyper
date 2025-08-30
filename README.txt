@@ -1,18 +1,34 @@
-StealthAutoTyper - Human-like Typing Bot (No Repeats)
+# ⌨️ StealthAutoTyper — Human-like Typing Bot (No Repeats)
 
-This script simulates extremely human-like typing behavior using Windows API.
-It uses SendInput for realistic key injection, with random delays, typos, CPU checks,
-and even simulated "thinking" pauses to mimic a real user.
+StealthAutoTyper is a Windows automation script that simulates **extremely human-like typing behavior** using the low-level **SendInput API**.  
 
-How to Build EXE:
-------------------
-1. Make sure Python is installed.
-2. Install PyInstaller if not already:
-   pip install pyinstaller
-3. In this folder, run:
-   pyinstaller --onefile --noconsole StealthAutoTyper.py
-4. The final EXE will be located in the 'dist' folder.
+Unlike simple auto-typers, this project introduces:
+- Random typing delays
+- Occasional typos with backspace corrections
+- CPU-aware pacing
+- “Thinking” pauses between sentences
+- A **no-repeats guard** to prevent accidental multiple runs  
 
-Notes:
-- This script has NO external dependencies.
-- Ideal for stealth automation use-cases on Windows.
+This makes the typing appear natural and indistinguishable from a real user.
+
+⚠️ **Disclaimer:** For demos, testing, and educational use only. Do not use in password fields, login forms, or against software policies.
+
+---
+
+## ✨ Features
+- **Human cadence**: random delays, pauses, natural rhythm
+- **Mistakes like a human**: typos + backspaces
+- **CPU throttling**: slows when your system is under load
+- **Thinking pauses**: simulates a human stopping to think
+- **No repeats**: prevents duplicate typing sessions
+- **Zero dependencies**: pure Python + ctypes
+
+---
+
+## 🚀 Usage
+
+### Run from source
+1. Make sure Python (3.10+ recommended) is installed.  
+2. Clone this repo and run:
+   ```bash
+   python StealthAutoTyper.py
