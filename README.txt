@@ -12,6 +12,7 @@ Unlike simple auto-typers, this project introduces:
 This makes the typing appear natural and indistinguishable from a real user.
 
 ⚠️ **Disclaimer:** For demos, testing, and educational use only. Do not use in password fields, login forms, or against software policies.
+⚠️ Use responsibly. Don’t target password fields, logins, or any software that forbids automation.
 
 ---
 
